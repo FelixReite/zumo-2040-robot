@@ -1,0 +1,10 @@
+{
+  "name": "zumo-2040-robot",
+  "version": "0.0.0",
+  "srcDir": "c/pololu_zumo_2040_robot",
+  "build": {
+    "srcFilter": [
+      "+<c/pololu_zumo_2040_robot/*>"
+    ]
+  }
+}
