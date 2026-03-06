@@ -1,5 +1,9 @@
 {
   "name": "zumo-2040-robot",
   "version": "0.0.0",
-  "srcDir": "c/pololu_zumo_2040_robot"
+  "srcDir": "c/pololu_zumo_2040_robot",
+  "build": {
+    "includeDir": "c/pololu_zumo_2040_robot/include"
+  }
+
 }
