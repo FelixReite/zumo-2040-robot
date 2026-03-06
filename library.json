@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "srcDir": "c/pololu_zumo_2040_robot",
   "build": {
-    "includeDir": "c/pololu_zumo_2040_robot/include"
+    "includeDir": "c/pololu_zumo_2040_robot/include",
+    "srcFilter": [
+      "-<*>",
+      "+<c/pololu_zumo_2040_robot/*>"
+    ]
   }
-
 }
